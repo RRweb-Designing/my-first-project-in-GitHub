@@ -29,6 +29,15 @@ color: white;
 font-size:30px;
 
 }
+.navbar a:hover
+{
+color:lightblue;
+
+}
+
+.navbar .logo{
+    font-weight: bold;
+} 
 /* about section image css */
 .imageAboutPage {
     width: 100%;
@@ -49,7 +58,7 @@ ul,li{
     text-transform: capitalize;
     font-size: medium;
     font-style: oblique;
-    font-weight: 700;
+    font-weight: 500;
 
 }
 /* services section css */
@@ -78,6 +87,12 @@ ul,li{
     background-color: black;
 }
 
+@media (max-width:600px) {
+    
+    .navbarScroll.navbarDark {
+        display: none;
+    }
+}
 
 /* social media icons styling */
 .social-icons {
